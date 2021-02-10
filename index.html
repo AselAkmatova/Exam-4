@@ -27,6 +27,19 @@
           Создать новую задачу
         </button>
       </div>
+      <div class="overlay"></div>
+      <form class="task-form">
+        <div class="task-form-top">
+          <h3 class="task-form-top__title">Создать задачу</h3>
+          <a href="#" class="task-form-top__btn-close"
+            ><img src="./images/close-modal.svg" alt=""
+          /></a>
+        </div>
+        <input id="task-title" type="text" placeholder="Заголовок задачи" />
+        <textarea id="task-text" placeholder="описание"></textarea>
+        <button id="task-save" type="submit">Сохранить</button>
+        <button id="task-cancel" type="button">Отмена</button>
+      </form>
     </div>
     <script src="index.js"></script>
   </body>
