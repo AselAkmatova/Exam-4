@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--main-color);
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+}
+
+:root {
+  --main-color: #5f81b2;
+  --task-color: #fffbe3;
+  --btn-opel-modal: #f5d57f;
+  --btn-cancel-form: #aeaeae;
+}
+
+.container {
+  padding: 54px 220px;
+}
+
+.container-top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 86px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.logo__title,
+.logo__subtitle {
+  font-weight: 900;
+  font-size: 60px;
+  text-transform: uppercase;
+}
+
+.logo__subtitle {
+  font-size: 18px;
+}
+
+.btn-open-form {
+  width: 287px;
+  height: 40px;
+  background-color: var(--btn-opel-modal);
+  border: none;
+  margin-top: 25px;
+  font-size: 17px;
+}
