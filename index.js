@@ -59,4 +59,14 @@ taskForm.addEventListener('submit', (e) => {
   task.append(checkBox);
 
   tasksBox.prepend(task);
+
+  const taskName = document.querySelector('.task__title');
+
+  checkBox.addEventListener('click', () => {
+    if (checkBox.checked == true) {
+      taskName.classList.add('task__title_checked');
+    } else {
+      taskName.classList.remove('task__title_checked');
+    }
+  });
 });
