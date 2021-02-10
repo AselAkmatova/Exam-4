@@ -103,4 +103,5 @@ taskForm.addEventListener('submit', (e) => {
       modalDelete.classList.remove('modal-delete_opened');
     });
   });
+  taskForm.reset();
 });
