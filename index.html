@@ -31,7 +31,7 @@
       <form class="task-form">
         <div class="task-form-top">
           <h3 class="task-form-top__title">Создать задачу</h3>
-          <a href="#" class="task-form-top__btn-close"
+          <a href="#" class="task-form-top__btn-close btn-close"
             ><img src="./images/close-modal.svg" alt=""
           /></a>
         </div>
@@ -45,6 +45,20 @@
         <h2 class="tasks-list__title">Список задач</h2>
         <div class="tasks-list__box box"></div>
       </section>
+      <div class="modal-delete">
+        <div class="modal-delete-top">
+          <h3 class="modal-delete-top__title">
+            Вы уверены что хотите удалить задачу навсегда?
+          </h3>
+          <a href="#" class="modal-delete-top__btn-close btn-close"
+            ><img src="./images/close-modal.svg" alt=""
+          /></a>
+        </div>
+        <button class="modal-delete__final-delete final-delete" type="button">
+          Удалить
+        </button>
+        <button class="modal-delete__cancel" type="button">Отмена</button>
+      </div>
     </div>
     <script src="index.js"></script>
   </body>

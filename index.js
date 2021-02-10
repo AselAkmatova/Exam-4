@@ -1,7 +1,7 @@
 const btnFormOpen = document.querySelector('.btn-open-form');
 const taskForm = document.querySelector('.task-form');
 const overlay = document.querySelector('.overlay');
-const btnFormClose = document.querySelector('.task-form-top__btn-close');
+const btnFormClose = document.querySelector('.btn-close');
 const btnFormCancel = document.querySelector('#task-cancel');
 
 btnFormOpen.addEventListener('click', () => {
