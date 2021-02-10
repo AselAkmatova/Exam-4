@@ -21,7 +21,7 @@ body {
   padding: 54px 220px;
 }
 
-.container-top {
+.header {
   display: flex;
   justify-content: space-between;
   margin-bottom: 86px;
