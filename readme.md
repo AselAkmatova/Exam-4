@@ -1,5 +1,5 @@
 # Exam-4
 
-# Asel Askmatova
+# Asel Akmatova
 
 # Todolist
