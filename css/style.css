@@ -195,7 +195,7 @@ body {
   display: none;
 }
 
-.modal-delete {
+.modal-delete_opened {
   width: 328px;
   height: 210px;
   background-color: var(--task-color);

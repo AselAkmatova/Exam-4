@@ -69,4 +69,38 @@ taskForm.addEventListener('submit', (e) => {
       taskName.classList.remove('task__title_checked');
     }
   });
+
+  trushIcon.addEventListener('click', () => {
+    const modalDelete = document.querySelector('.modal-delete');
+    modalDelete.classList.add('modal-delete_opened');
+    overlay.classList.add('overlay_opened');
+
+    const finalDelete = document.querySelector('.final-delete');
+    const cancelDelete = document.querySelector('.modal-delete__cancel');
+
+    finalDelete.addEventListener('click', () => {
+      task.style.display = 'none';
+      modalDelete.classList.remove('modal-delete_opened');
+      overlay.classList.remove('overlay_opened');
+    });
+
+    cancelDelete.addEventListener('click', () => {
+      modalDelete.classList.remove('modal-delete_opened');
+      overlay.classList.remove('overlay_opened');
+    });
+
+    overlay.addEventListener('click', () => {
+      overlay.classList.remove('overlay_opened');
+      modalDelete.classList.remove('modal-delete_opened');
+    });
+
+    const btnDeleteModalClose = document.querySelector(
+      '.modal-delete-top__btn-close'
+    );
+
+    btnDeleteModalClose.addEventListener('click', () => {
+      overlay.classList.remove('overlay_opened');
+      modalDelete.classList.remove('modal-delete_opened');
+    });
+  });
 });
