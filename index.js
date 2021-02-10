@@ -33,6 +33,12 @@ taskForm.addEventListener('submit', (e) => {
   const taskTitle = document.getElementById('task-title').value;
   const taskText = document.getElementById('task-text').value;
 
+  if (taskTitle == '') {
+    alert('Пожалуйста заполните поле заголовка');
+    taskForm.classList.add('task-form_opened');
+    return;
+  }
+
   const tasksBox = document.querySelector('.box');
   const task = document.createElement('div');
   task.classList.add('box__task');
