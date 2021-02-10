@@ -91,7 +91,7 @@ body {
   line-height: 27px;
 }
 
-.task-form-top__title {
+.task-form-top {
   display: flex;
   justify-content: space-between;
 }
