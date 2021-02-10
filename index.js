@@ -46,8 +46,8 @@ taskForm.addEventListener('submit', (e) => {
   trushIcon.innerHTML = `<img  src="./images/delete.svg" alt="delete" />`;
 
   task.innerHTML = `
-  <h3 class = "title-task">${taskTitle}</h3>
-  <p class = "text-task">${taskText}</p>`;
+  <h3 class = "task__title">${taskTitle}</h3>
+  <p class = "task__text">${taskText}</p>`;
 
   task.append(trushIcon);
   task.append(checkBox);

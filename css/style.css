@@ -180,7 +180,7 @@ body {
   background-color: var(--task-color);
 }
 
-.title-task {
+.task__title {
   font-weight: 900;
   font-size: 16px;
   margin-bottom: 5px;
