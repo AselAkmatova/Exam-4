@@ -88,10 +88,6 @@
     padding: 15px 65px 20px 20px;
     width: 100%;
   }
-
-  .delete-icon {
-    top: 60%;
-  }
 }
 
 @media (min-width: 796px) and (max-width: 1435px) {
